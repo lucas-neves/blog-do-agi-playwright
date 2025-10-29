@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Blog Agibank Automation Suite" parallel="false">
+    <test name="Stories Pagination Test">
+        <classes>
+            <class name="br.com.agibank.tests.StoriesPaginationTest"/>
+        </classes>
+    </test>
+    <test name="Product Search Test">
+        <classes>
+            <class name="br.com.agibank.tests.ProductSearchTest"/>
+        </classes>
+    </test>
+</suite>
