@@ -55,6 +55,14 @@ Os vídeos das execuções são salvos automaticamente em `target/videos/`
 Os testes são executados automaticamente via GitHub Actions em pushes e pull requests.
 Relatórios Allure e vídeos são disponibilizados como artifacts.
 
+### Visualizar Relatório Online
+
+Após a execução no GitHub Actions, o relatório Allure é publicado automaticamente no GitHub Pages:
+
+**https://lucas-neves.github.io/blog-do-agi-playwright/**
+
+Os vídeos das execuções ficam disponíveis em: `https://lucas-neves.github.io/blog-do-agi-playwright/videos/`
+
 ## Autor
 
 Lucas Neves
